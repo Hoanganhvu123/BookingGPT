@@ -26,29 +26,29 @@ Welcome to the Daisy Hair Salon booking system! This is a smart application usin
 bookinggpt/
 ├── agent/
 │   ├── __init__.py
-│   ├── booking_agent.py (Implements the main BookingAgent class for handling customer interactions)
-│   └── prompt.py (Contains the prompt template for the AI assistant)
+│   ├── booking_agent.py
+│   └── prompt.py
 ├── tool/
 │   ├── __init__.py
-│   ├── available_event.py (Tool for checking available time slots)
-│   ├── cancel_event.py (Tool for canceling appointments)
-│   └── create_event.py (Tool for creating new appointments)
+│   ├── available_event.py
+│   ├── cancel_event.py
+│   └── create_event.py
 ├── __init__.py
-└── utils.py (Contains utility functions used across the project)
+└── utils.py
 tests/
 ├── __init__.py
-├── test_available_event.py (Unit tests for available_event.py)
-├── test_cancel_event.py (Unit tests for cancel_event.py)
-├── test_create_event.py (Unit tests for create_event.py)
-├── test_output_parser.py (Tests for parsing AI output)
-└── test_tool_output.py (Tests for tool output formatting)
-main.py (Entry point of the application, initializes and runs the BookingAgent)
-README.md (Project documentation and usage instructions)
-.env (Contains environment variables like API keys)
-.gitignore (Specifies files to be ignored by Git)
-Dockerfile (Instructions for building a Docker container for the application)
-pyproject.toml (Poetry configuration file for dependency management)
-requirements.txt (List of Python package dependencies)
+├── test_available_event.py
+├── test_cancel_event.py
+├── test_create_event.py
+├── test_output_parser.py
+└── test_tool_output.py
+main.py
+README.md
+.env
+.gitignore
+Dockerfile
+pyproject.toml
+requirements.txt
 ```
 
 ## 🚀 Installation and Usage
