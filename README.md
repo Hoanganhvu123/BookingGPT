@@ -22,20 +22,21 @@ Welcome to the Daisy Hair Salon booking system! This is a smart application usin
 
 ## 🏗️ Project Structure
 
+```
 bookinggpt/
 ├── agent/
-│ ├── init.py
-│ ├── booking_agent.py
-│ └── prompt.py
+│   ├── __init__.py
+│   ├── booking_agent.py
+│   └── prompt.py
 ├── tool/
-│ ├── init.py
-│ ├── available_event.py
-│ ├── cancel_event.py
-│ └── create_event.py
-├── init.py
+│   ├── __init__.py
+│   ├── available_event.py
+│   ├── cancel_event.py
+│   └── create_event.py
+├── __init__.py
 └── utils.py
 tests/
-├── init.py
+├── __init__.py
 ├── test_available_event.py
 ├── test_cancel_event.py
 ├── test_create_event.py
@@ -48,6 +49,7 @@ README.md
 Dockerfile
 pyproject.toml
 requirements.txt
+```
 
 ## 🚀 Installation and Usage
 
