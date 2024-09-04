@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Security related files
+security/credentials.json
+security/token.json
+
+# Virtual environment (nếu bạn sử dụng)
+venv/
+env/
+
+# IDE specific files (nếu bạn sử dụng)
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test token file
+tests/token.json
+
